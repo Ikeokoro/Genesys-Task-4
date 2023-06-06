@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Valutico</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="welcome">
+        <h1>Welcome Back!</h1>
+      </div>
+
+      <div id="content">
+        <form action="/action.php" method="post">
+          <h2>Login to continue</h2>
+
+          <div id="form">
+            <div>
+              <label for="username">Username</label>
+              <input
+                class="text-box"
+                type="text"
+                placeholder="Enter username"
+              />
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <input
+                class="text-box"
+                type="password"
+                placeholder="Enter password"
+              />
+            </div>
+          </div>
+        </form>
+
+        <div id="prompts">
+          <p id="signup">
+            Don't have an account? <a href="signup.html">signup</a>
+          </p>
+          <p id="reset">Forgot password? <a href="#">reset here</a></p>
+        </div>
+
+        <div>
+          <input class="button" type="submit" value="Login" />
+        </div>
+        <footer>&copy;2023 Valutico. All rights reserved.</footer>
+      </div>
+    </div>
+  </body>
+</html>

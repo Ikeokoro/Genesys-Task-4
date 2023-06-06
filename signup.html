@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-Valutico</title>
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <div class="container" id="main-frame">
+      <div id="header">
+        <a href="Images/logo.png">
+          <img id="logo" src="Images/logo.png" alt="valutico logo" />
+        </a>
+        <p>The World's Leading Business Valuation Software</p>
+      </div>
+
+      <div id="form">
+        <form action="/action.php" method="post">
+          <h2>Get Started</h2>
+          <div>
+            <label for="name">Name</label>
+            <input class="text-box" type="text" placeholder="Enter your fullname" />
+          </div>
+  
+          <div>
+            <label for="email">Email</label>
+            <input class="text-box" type="text" placeholder="email @example.com" />
+          </div>
+  
+          <div>
+            <label for="countries">Country</label>
+            <select name="countries" id=""class="text-box">
+              <option value="">Choose your country</option>
+              <option value="">Nigeria</option>
+              <option value="">China</option>
+              <option value="">Russia</option>
+              <option value="">USA</option>
+              <option value="">UK</option>
+            </select>
+          </div>
+  
+          <div>
+            <label for="username">Username</label>
+            <input class="text-box" type="text" placeholder="Enter username" />
+          </div>
+  
+          <div>
+            <label for="password">Password</label>
+            <input class="text-box" type="password" placeholder="Enter password" />
+          </div>
+  
+          <div>
+            <label for="password"> Confirm Password</label>
+            <input class="text-box" type="password" placeholder="Repeat password" />
+          </div>
+
+          <div>
+            <label for="referral"> Referral Code</label>
+            <input class="text-box" type="code" placeholder="Optional" />
+          </div>
+        </form>
+      </div>
+
+      <p id="prompt">Already have an account? <a href="login.html">login</a></p>
+
+      <input id="button" type="button" value="Signup" />
+      <div id="agree">
+        <input type="checkbox" name="" id="" />
+        By clicking on signup, I acknowledge that i have read and agreed to
+        Valutico's <a href="#">terms and conditions</a> and
+        <a href="#">privacy statement</a>.
+      </div>
+      <div id="footer">
+        <footer>
+          <p>&copy;2023 Valutico. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
